@@ -1,0 +1,25 @@
+{
+  "name": "firebase-tools-example-static",
+  "version": "1.0.0",
+  "description": "NodeJS server for Angular static serve",
+  "main": "app.js",
+  "scripts": {
+    "develop": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production forever start app.js"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myownsumm/firebase-tools-example-static.git"
+  },
+  "author": "Alexander Poltoratskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myownsumm/firebase-tools-example-static/issues"
+  },
+  "homepage": "https://github.com/myownsumm/firebase-tools-example-static#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
